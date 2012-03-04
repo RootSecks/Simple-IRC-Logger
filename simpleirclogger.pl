@@ -13,10 +13,6 @@
 	use strict;
 	#Include the socket functions of PERL
 	use IO::Socket;
-	#Include threading package and threading shared variable package
-	use threads;
-	#use threads::shared;
-	use threads::shared;
 	######################END OF INCLUDES###########################
 
 
