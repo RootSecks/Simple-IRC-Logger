@@ -1,0 +1,5 @@
+Simple IRC Logger by RootSecks/householdutensils
+
+Change the nick, login, server, and channel variables in the script to change where and how you want to connect.
+
+Logs to a text file called chatlog.log and does not do any rotation.
