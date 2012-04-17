@@ -1,3 +1,5 @@
+#!/bin/perl
+
 	##################Simple IRC Logger######################
 	#  Written by Householdutensils for Root{SEC}   #
 	# Based on the Trivia bot: Triviatron ( RIP :( )
