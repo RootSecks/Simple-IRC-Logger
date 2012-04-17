@@ -87,31 +87,6 @@
 	}
 
 
-	#sub parse_and_store {
-	#get arg
-	#my $txtline = shift;
-	#get users nick
-	#my $txtnick = &get_irc_nick($txtline);
-	#get ident
-	#my $txtident = &get_ident($txtline);
-	#get channel
-	#my $txtchannel = &get_channel($txtline);
-	#get chat text
-	#my $txtchattext = &get_chat_text($txtline);
-	#
-	#Connect to the database
-	#my $dbh = DBI->connect ("DBI:mysql:rootsec_irc_db:localhost","root","Password1") or die "COuld not connect to database"; 
-	#query
-	#my $sql_query = "INSERT INTO ircchat (irctext, ircnick, ircident, ircchannel, ircchattext, ircdate) VALUES ('$txtline', '$txtnick', '$txtident', '$txtchannel', '$txtchattext', NOW())";
-	#Prepare the SQL Query for execution
-	#my $s_query = $dbh->prepare($sql_query); 
-	#Execute the Query, get the question
-	#my $return_query = $s_query->execute() or die "Could not execute"; 
-	#Disconnect
-	#$dbh->disconnect;
-	#}
-
-
 	sub parse_and_store {
 		
 		my $txtline = shift;
@@ -223,9 +198,6 @@
 		  
 	    if ($debugvar) { print "Working:->"; } #Debuging Token that prints "Working :-> as long as this loop still runs
 
-	    
-	    # Debug command.
-	    
 
 
 	} #End of the entire chat loop
